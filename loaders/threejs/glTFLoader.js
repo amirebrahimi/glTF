@@ -1560,8 +1560,6 @@ THREE.glTFLoader.prototype.load = function( url, callback ) {
 	            var bufferView = this.resources.getEntry(skin.inverseBindMatricesDescription.bufferView);
 	            skin.inverseBindMatricesDescription.bufferView = 
 	            	bufferView.object;
-	            console.log(skin.inverseBindMatrices);
-	            console.log(THREE.GLTFLoaderUtils);
 	    		this.resources.setEntry(entryID, skin, description);
                 return true;
             }
